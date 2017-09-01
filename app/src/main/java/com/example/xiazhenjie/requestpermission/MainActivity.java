@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //
         android.util.Log.d("Neo","Build.VERSION.SDK_INT=="+Build.VERSION.SDK_INT); //23
     }
 
